@@ -1,0 +1,1 @@
+"c:\Users\hp\Programs\ReadyAPI-1.4.1\bin\testrunner.bat" -r -a -j -fC:\Users\hp\Documents\Tests\Jenkins\workspace\UITestExample1\target\surefire-reports -R"Project Report" -E"Default environment" -I -tC:\Users\hp\soapui-settings.xml c:\Users\hp\Documents\Tests\Jenkins\workspace\UITestExample1\soapui.xml

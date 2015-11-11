@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="a66f420c-885e-447b-834d-ff93ed57a401" activeEnvironment="Default environment" name="REST" resourceRoot="" soapui-version="6.0.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="TestSuite" value="Google Maps API"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Save Project" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="TestCase" value="TestCase 1"/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="Endpoint" value=""/>
+</xml-fragment>]]></con:setting><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.LoadUITestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Test Duration Limit" value=""/>
+  <con:entry key="Abort Requests" value=""/>
+  <con:entry key="Report Format" value="Default"/>
+  <con:entry key="Local Mode" value="false"/>
+  <con:entry key="Agents" value=""/>
+  <con:entry key="Arriving/Base VUs" value=""/>
+  <con:entry key="Statistics" value=""/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Failure Limit" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Target Number Limit" value=""/>
+  <con:entry key="Environment" value="Default environment"/>
+  <con:entry key="Summary" value="false"/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Save Project" value="false"/>
+  <con:entry key="Create Report" value="false"/>
+  <con:entry key="LoadUITest" value=""/>
+  <con:entry key="Export Raw Data" value=""/>
+</xml-fragment>]]></con:setting><con:setting id="IncludeOverview">true</con:setting><con:setting id="IncludeResults">true</con:setting><con:setting id="FlowLayout">false</con:setting><con:setting id="ErrorDetails">true</con:setting><con:setting id="IncludeCoverage">true</con:setting><con:setting id="GeneratableJUnitReport@Style">Multiple Pages</con:setting><con:setting id="GeneratableJUnitReport@Folder">C:\Users\hp\Desktop\Test Reports</con:setting><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value="xml"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="true"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="&lt;all>"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value="Data Export"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Run in-process" value="false"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="&lt;all>"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default environment"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value="C:\Users\hp\Documents\Tests\Jenkins\workspace\UITestExample1\SoapUI xml export"/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="0fccbd00-752f-4677-a128-80a83188d963" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://ya.ru" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://ya.ru</con:endpoint></con:endpoints><con:resource name="" path="" id="f1f03a3f-ca6b-4a50-b356-5d5c036f9cb6"><con:settings/><con:parameters/><con:method name="" id="0263e3e7-c4bb-48f0-8099-606ac9ddab8e" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>text/html; charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html; charset=UTF-8</con:mediaType><con:status>404</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:json="http://maps.googleapis.com/maps/api/geocode/json">json:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml; charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element>GeocodeResponse</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>text/xml</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="0d01fdb7-553e-473f-bb2e-b3bab49551bd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://ya.ru</con:endpoint><con:request/><con:originalUri>http://ya.ru/</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="22cb6c5c-011e-49be-8a32-639b47f48d72" name="Yandex"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="be4f70e9-73d4-4e53-bec8-9e7d4514a6a4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OpenSearchPage" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="restrequest" name="Открыть станицу ya.ru" id="98f457be-6283-4d5e-8e30-3b9ac3d82e4d"><con:settings/><con:config service="http://ya.ru" resourcePath="" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Открыть станицу ya.ru" id="0d01fdb7-553e-473f-bb2e-b3bab49551bd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://ya.ru/</con:endpoint><con:request/><con:originalUri>http://ya.ru/</con:originalUri><con:assertion type="XPath Match" id="037f46b4-361b-48e9-8d7b-23ab74db9029" name="XPath Название страницы = Яндекс"><con:configuration><path>html/head/title</path><content>Яндекс1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" id="3cc30207-7aa7-44ab-bfa1-fe42d59bc000" name="Match content of [span] Найти"><con:configuration><path>//html[1]/body[1]/table[1]/tr[2]/td[1]/form[1]/div[1]/div[1]/button[1]/span[1]/text()</path><content>Найти</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>98f457be-6283-4d5e-8e30-3b9ac3d82e4d</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite id="9b2b5ad5-1ea0-499c-9a42-d317858cb7c8" name="Google"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="d478633c-2b05-463b-bd0e-e53bc420bae3" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="GetMapXML" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="restrequest" name="REST Request" id="31ef8edb-6a5f-4b6d-8ae6-772509282ffd"><con:settings/><con:config service="http://ya.ru" methodName="" resourcePath="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST Request" id="450d9261-cc91-424a-9c6c-08c049af72ab" mediaType="application/json"><con:description>sjdfkshdl</con:description><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://maps.googleapis.com/maps/api/geocode/xml</con:endpoint><con:request/><con:originalUri>http://maps.googleapis.com/maps/api/geocode/json</con:originalUri><con:assertion type="Simple Contains" id="9cf37bbe-5789-4163-9794-33f287000630" name="Contains"><con:configuration><token>ZERO_RESULTS</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="2885fc59-4991-48be-aa0e-0e78a1f300c4" name="XPath Match"><con:configuration><path>GeocodeResponse/status</path><content>ZERO_RESULTS</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:loadTest id="07423a2c-53db-48cc-89ba-4a1ca2065afe" name="LoadTest 1"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting><con:setting id="hasBeenConvertedToLoadUITest">true</con:setting></con:settings><con:threadCount>10</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Thread</con:type><con:config><startThreadCount>1</startThreadCount><endThreadCount>10</endThreadCount></con:config></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval><con:reportParameters/></con:loadTest><con:properties/><con:reportParameters/><con:securityTest id="74133b07-930f-4a09-bd42-a5bfd11c4119" name="SecurityTest 1" failOnError="true" testCaseId="d478633c-2b05-463b-bd0e-e53bc420bae3"><con:settings/><con:properties/><con:reportParameters/></con:securityTest></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:savedRecentRuns>3</con:savedRecentRuns><con:requirements/><con:properties><con:property><con:name>Some Property</con:name><con:value>with a value</con:value></con:property></con:properties><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates><con:name>Allure</con:name><con:reportType>COMMON</con:reportType><con:reportLevel>MAINREPORT</con:reportLevel><con:data><![CDATA[<jasperReport xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ReportTemplate" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="30" bottomMargin="30" xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <property name="ireport.encoding" value="UTF-8"/>
+   <template>"../../styles.jrtx"</template>
+   <!--FIELDS & PARAMS-->
+   <title>
+      <band height="70">
+         <textField>
+            <reportElement x="159" y="13" width="229" height="42"/>
+            <textElement>
+               <font size="26"/>
+            </textElement>
+            <textFieldExpression class="java.lang.String">$F{name} + " Report"</textFieldExpression>
+         </textField>
+      </band>
+   </title>
+   <pageHeader>
+      <band/>
+   </pageHeader>
+   <detail>
+      <band height="122">
+         <!--SUBREPORTS UNDER HERE-->
+         <subreport isUsingCache="true">
+            <reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="500" height="30"/>
+            <dataSourceExpression>$P{TestProperties}</dataSourceExpression>
+            <subreportExpression>"subreport:PropertiesReport"</subreportExpression>
+         </subreport>
+      </band>
+   </detail>
+</jasperReport>]]></con:data><con:subreports>PropertiesReport</con:subreports><con:scope>PROJECT</con:scope></con:reportTemplates><con:xmlTemplates/><con:parameters/></con:reporting><con:authRepository/><con:loadUiTest name="LoadTest 1" id="d9b28d25-ddfb-43a5-bef2-2d9dabc2814c"><con:settings><con:setting id="convertedFromLoadTestModelItemId">07423a2c-53db-48cc-89ba-4a1ca2065afe</con:setting></con:settings><con1:loadui-project id="c4bd0d5a-f94e-471b-afb8-ce4243086422" label="LoadTest 1" xmlns:con1="http://eviware.com/loadui/config"><con1:properties><con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/><con1:property propagates="true" key="CanvasItem.abortOnFinish" type="java.lang.Boolean">false</con1:property><con1:property propagates="true" key="ModelItem.saveReport" type="java.lang.Boolean">false</con1:property><con1:property propagates="true" key="ModelItem.reportFolder" type="java.lang.String"/><con1:property propagates="true" key="ModelItem.reportFormat" type="java.lang.String"/><con1:property propagates="true" key="ModelItem.rate" type="java.lang.Long">5</con1:property><con1:property propagates="true" key="ModelItem.loadDistributionType" type="com.smartbear.load.facade.LoadDistributionType">PerScenario</con1:property><con1:property propagates="true" key="ModelItem.remoteMode" type="java.lang.String"/></con1:properties><con1:attributes><con1:property key="limits">Time=60;</con1:property></con1:attributes><con1:addons/><con1:scene label="New Scenario" id="e34777e8-c721-4355-ac5c-b16cbb13daae" version="29"><con1:properties><con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/><con1:property propagates="true" key="CanvasItem.abortOnFinish" type="java.lang.Boolean">true</con1:property><con1:property propagates="true" key="SceneItem.followProject" type="java.lang.Boolean">true</con1:property><con1:property propagates="true" key="SceneItem.scenarioRatePercentage" type="java.lang.Long">100</con1:property><con1:property propagates="true" key="SceneItem.scenarioRateSpecific" type="java.lang.Long">10</con1:property></con1:properties><con1:attributes><con1:property key="limits">Time=60;</con1:property></con1:attributes><con1:addons/><con1:component type="com.eviware.loadui.groovy.GroovyComponent" label="Interval 1" id="25b29969-b490-4f37-b19e-52606a0cd3f7" category="scheduler"><con1:properties><con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/><con1:property propagates="true" key="_script" type="java.lang.String"><![CDATA[// 
+// Copyright 2014 SmartBear Software
+// 
+// Licensed under the EUPL, Version 1.1 or - as soon they will be approved by the European Commission - subsequent
+// versions of the EUPL (the "Licence");
+// You may not use this work except in compliance with the Licence.
+// You may obtain a copy of the Licence at:
+// 
+// http://ec.europa.eu/idabc/eupl
+// 
+// Unless required by applicable law or agreed to in writing, software distributed under the Licence is
+// distributed on an "AS IS" basis, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+// express or implied. See the Licence for the specific language governing permissions and limitations
+// under the Licence.
+// 
+
+/**
+ * Schedules the start and stop of connected components 
+ *
+ * @id com.eviware.Interval
+ * @help http://www.loadui.org/Schedulers/interval-component.html
+ * @category scheduler
+ * @nonBlocking true
+ */
+
+// Schedule the start and stop of a trigger component.
+// On Start starts timer and when StartAt reached send one START message to 
+// attached component. When Duration expires one STOP message is send to each 
+// attached component.
+// Repeat option repeats whole process if counter limit not set.
+// 
+// On Stop it sends a STOP message to attached components and stops timer.
+//
+// On Reset it just resets the timer and stops it.
+
+
+import com.eviware.loadui.api.events.BaseEvent
+import com.eviware.loadui.api.events.PropertyEvent
+import com.eviware.loadui.api.model.CanvasItem
+import com.eviware.loadui.util.layout.IntervalModel
+
+import java.util.concurrent.TimeUnit
+
+createProperty('startAt', Long, 0)
+createProperty('duration', Long, 0)
+createProperty('unit', String, 'Sec')
+createProperty('mode', String, 'Single')
+createProperty('defaultMode', Boolean, true)
+
+long testStartTime = 0
+def canvas = getCanvas()
+
+def startFuture = null
+def stopFuture = null
+def endFuture = null
+
+String lastAction = "Undefined";
+
+updateState = {
+    if (lastAction != "START") {
+        //warn "Aborting update due to $lastAction"
+        return;
+    }
+
+    if (defaultMode.value) {
+        sendEnabled(true)
+
+        //warn "Default mode run"
+        return
+    }
+    //warn "Scheduled mode run"
+
+    long limit = canvas.getLimit(CanvasItem.TIMER_COUNTER) * 1000
+
+    long mult = 1000
+    if (unit.value == 'Min') mult *= 60
+    else if (unit.value == 'Percent' && limit > 0) mult = limit / 100
+
+    long startTime = startAt.value * mult
+    if (limit > 0 && startTime > limit) {
+        startAt.value = limit / mult
+        //warn "Start at updated without affect on the execution "
+        return
+    }
+
+    long stopTime
+    if (duration.value == 0) {
+        stopTime = (limit > 0) ? limit : IntervalModel.INFINITE
+    } else {
+        stopTime = startTime + duration.value * mult
+    }
+
+    if (limit > 0 && stopTime > limit) {
+        long newDuration = limit / mult - startAt.value
+        duration.value = newDuration
+        //warn "Duration updated without affect on the execution "
+        return
+    }
+
+    long currentTime = (System.currentTimeMillis() - testStartTime) % stopTime
+
+    //warn "Current time: $currentTime, Stop time: $stopTime"
+
+    if (currentTime < stopTime) {
+        long stopInterval = stopTime - currentTime
+        //warn "Schedule stopping $stopInterval"
+        stopFuture?.cancel(true)
+        stopFuture = schedule({
+            sendEnabled(false)
+            //warn "Stop exucution"
+            if (mode.value != 'Single') {
+                updateState()
+            }
+        }, stopInterval, TimeUnit.MILLISECONDS)
+    }
+    if (currentTime < startTime) {
+        long startInterval = startTime - currentTime
+        //warn "Schedule START at $startInterval"
+        startFuture?.cancel(true)
+        startFuture = schedule({
+            //warn "Start exucution"
+            sendEnabled(true)
+        }, startInterval, TimeUnit.MILLISECONDS)
+        //warn "Stopping for now"
+        sendEnabled(false)
+    } else if (currentTime < stopTime) {
+        //warn "Start execution right now"
+        sendEnabled(true)
+    }
+}
+
+onAction("RESET_COUNTER_VALUES") {
+    //invoked on PRE_START
+    updateState()
+}
+
+onAction("START") {
+    if (lastAction != "START") {
+        lastAction = "START"
+        cancelAll()
+        testStartTime = System.currentTimeMillis()
+        updateState()
+    }
+}
+
+onAction("STOP") {
+    lastAction = "STOP"
+    sendEnabled(false)
+    cancelAll()
+    updateState()
+}
+
+onAction("RESET") {
+}
+
+addEventListener(PropertyEvent) { event ->
+    if (event.property in [startAt, duration, unit, mode]) {
+        updateState()
+    }
+}
+
+def limitsListener = addEventListener(canvas, BaseEvent) { event ->
+    if (event.key == CanvasItem.LIMITS) {
+        updateState()
+    }
+}
+
+onRelease = {
+    cancelAll()
+    canvas.removeEventListener(BaseEvent, limitsListener)
+}
+
+cancelAll = {
+    startFuture?.cancel(true)
+    startFuture = null
+    stopFuture?.cancel(true)
+    stopFuture = null
+    endFuture?.cancel(true)
+    endFuture = null
+}]]></con1:property><con1:property propagates="true" key="stateProperty" type="java.lang.Boolean">true</con1:property><con1:property propagates="true" key="startAt" type="java.lang.Long">0</con1:property><con1:property propagates="true" key="duration" type="java.lang.Long">5</con1:property><con1:property propagates="true" key="unit" type="java.lang.String">Sec</con1:property><con1:property propagates="true" key="mode" type="java.lang.String">Single</con1:property><con1:property propagates="true" key="defaultMode" type="java.lang.Boolean">true</con1:property></con1:properties><con1:attributes><con1:property key="com.eviware.loadui.api.model.ComponentItem@type">Interval</con1:property><con1:property key="_digest">38ca389ba6d8738962c63839763c4305</con1:property><con1:property key="_id">com.eviware.Interval</con1:property><con1:property key="_classLoader">com.eviware.Interval</con1:property></con1:attributes><con1:addons/></con1:component><con1:component type="com.eviware.loadui.groovy.GroovyComponent" label="Ramp Sequence (VU) 1" id="0ad76ae5-fccf-4eb3-8872-2060005d3322" category="generators"><con1:properties><con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/><con1:property propagates="true" key="_script" type="java.lang.String"><![CDATA[// 
+// Copyright 2014 SmartBear Software
+// 
+// Licensed under the EUPL, Version 1.1 or - as soon they will be approved by the European Commission - subsequent
+// versions of the EUPL (the "Licence");
+// You may not use this work except in compliance with the Licence.
+// You may obtain a copy of the Licence at:
+// 
+// http://ec.europa.eu/idabc/eupl
+// 
+// Unless required by applicable law or agreed to in writing, software distributed under the Licence is
+// distributed on an "AS IS" basis, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+// express or implied. See the Licence for the specific language governing permissions and limitations
+// under the Licence.
+// 
+
+/**
+ *
+ * @id com.eviware.RampSequenceVU
+ * @name Ramp Sequence (VU)
+ * @category generators
+ * @nonBlocking true
+ */
+
+import java.util.concurrent.Future
+import java.util.concurrent.TimeUnit
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.atomic.AtomicLong
+
+sampleCount = createInput('Sample Count', 'Currently running feedback', 'Used to receive the number of currently running requests from the triggered Runner.') {
+    it.name == "runningTerminal"
+}
+
+AtomicInteger differenceFromTargetLoad = new AtomicInteger(0)
+AtomicInteger currentVus = new AtomicInteger(0)
+String latestAction = 'NONE'
+Future loadUpdateFuture = null
+AtomicLong rampUpLengthInMillis = new AtomicLong(0L)
+AtomicLong rampDownLengthInMillis = new AtomicLong(0L)
+AtomicLong peakLengthInMillis = new AtomicLong(0L)
+float rampUpSlope = 0f
+float rampDownSlope = 0f
+
+createProperty('baseVU', Long, 0) {
+    updateSlopes()
+}
+createProperty('peakVU', Long, 10) {
+    updateSlopes()
+}
+createProperty('rampUpDuration', Long, 10) { Long value -> // in seconds
+    rampUpLengthInMillis.set(value * 1000L)
+    updateRampUpSlope()
+}
+createProperty('rampDownDuration', Long, 10) { Long value -> // in seconds
+    //rampDownLengthInMillis.set(value * 1000L)
+    updateRampDownSlope()
+}
+createProperty('peakDuration', Long, 10) { Long value -> // in seconds
+    peakLengthInMillis.set(value * 1000L)
+}
+createProperty('waitTime', Long, 500)
+
+
+updateRampUpSlope = {
+    if (rampUpLengthInMillis.get() != 0) {
+        rampUpSlope = (peakVU.value - baseVU.value) / rampUpLengthInMillis.get()
+    }
+}
+
+updateRampDownSlope = {
+    // FIXME temporarily using rampUp also as rampDown because we have only one ramp parameter in this release
+    //if (rampDownLengthInMillis.get() != 0) {
+    //    rampDownSlope = (baseVU.value - peakVU.value) / rampDownLengthInMillis.get()
+    //}
+    rampDownSlope = -rampUpSlope
+    rampDownLengthInMillis.set(rampUpLengthInMillis.get())
+}
+
+updateSlopes = {
+    updateRampUpSlope()
+    updateRampDownSlope()
+}
+
+calculateLoad = { long time ->
+    synchronized (rampUpLengthInMillis) {
+        synchronized (rampDownLengthInMillis) {
+            synchronized (peakLengthInMillis) {
+                rampUpTime = rampUpLengthInMillis.get()
+                peakTime = peakLengthInMillis.get()
+                cycleDuration = rampUpTime + peakTime + rampDownLengthInMillis.get()
+            }
+        }
+    }
+    if (cycleDuration == 0L) {
+        return baseVU.value
+    }
+    long timeWithinCycle = time % cycleDuration
+
+    if (timeWithinCycle < rampUpTime) {                             // ramping up
+        return (rampUpSlope * timeWithinCycle + baseVU.value).longValue()
+    } else if (timeWithinCycle < rampUpTime + peakTime) {           // peak
+        return peakVU.value
+    } else {                                                        // ramping down
+        def timeAfterPeak = timeWithinCycle - (rampUpTime + peakTime)
+        return (rampDownSlope * timeAfterPeak + peakVU.value).longValue()
+    }
+}
+
+startup = {
+    loadUpdateFuture?.cancel(true)
+    if (!stateProperty.value)
+        return;
+    final startTime = System.currentTimeMillis()
+    loadUpdateFuture = scheduleAtFixedRate({
+        long expiredTime = System.currentTimeMillis() - startTime
+        int targetLoad = calculateLoad(expiredTime) as int
+
+        synchronized (differenceFromTargetLoad) {
+            differenceFromTargetLoad.set(targetLoad - currentVus.get())
+
+            // get VUs started again in cases where the load had been 0
+            if (currentVus.get() == 0 && differenceFromTargetLoad.get() > 0) {
+                addVusToCorrectLoad()
+            }
+        }
+
+    }, 0L, 250L, TimeUnit.MILLISECONDS)
+
+    addVusToCorrectLoad()
+}
+
+startVu = {
+    if (latestAction == 'START' && stateProperty.value) {
+        currentVus.incrementAndGet()
+        def delay = Math.max(waitTime.value, 0)
+        trigger(delay ?: null)
+        vuStarted()
+    }
+}
+
+addVusToCorrectLoad = {
+    if (stateProperty.value) {
+        synchronized (differenceFromTargetLoad) {
+            if (differenceFromTargetLoad.get() > 0) {
+                differenceFromTargetLoad.times { startVu() }
+                differenceFromTargetLoad.set(0)
+            }
+        }
+    }
+}
+
+onMessage = { outgoing, incoming, message ->
+    if (incoming == sampleCount && latestAction == 'START') {
+        vuFinished()
+        currentVus.decrementAndGet() // got a returning VU, so we need to decrease the VU count
+        boolean removeVU = false
+        synchronized (differenceFromTargetLoad) {
+            if (differenceFromTargetLoad.get() < 0) {
+                removeVU = true
+                differenceFromTargetLoad.incrementAndGet()
+            } else {
+                addVusToCorrectLoad()
+            }
+        }
+
+        if (!removeVU) {
+            startVu()
+        }
+    } else if (incoming == stateTerminal) {
+        if (message.Enabled) {
+            if (latestAction == 'START') {
+                startup()
+            }
+        } else {
+            loadUpdateFuture?.cancel(true)
+        }
+    }
+}
+
+onAction('START') {
+    if (latestAction == 'START') {
+        return
+    }
+    resetVUCount()
+    currentVus.set(0)
+    differenceFromTargetLoad.set(baseVU.value.intValue())
+    latestAction = 'START'
+    startup()
+}
+
+onAction('STOP') {
+    latestAction = 'STOP'
+    loadUpdateFuture?.cancel(true)
+    loadUpdateFuture = null
+    currentVus.set(0)
+}
+]]></con1:property><con1:property propagates="true" key="stateProperty" type="java.lang.Boolean">false</con1:property><con1:property propagates="true" key="baseVU" type="java.lang.Long">1</con1:property><con1:property propagates="true" key="peakVU" type="java.lang.Long">10</con1:property><con1:property propagates="true" key="rampUpDuration" type="java.lang.Long">10</con1:property><con1:property propagates="true" key="rampDownDuration" type="java.lang.Long">10</con1:property><con1:property propagates="true" key="peakDuration" type="java.lang.Long">10</con1:property><con1:property propagates="true" key="waitTime" type="java.lang.Long">500</con1:property></con1:properties><con1:attributes><con1:property key="com.eviware.loadui.api.model.ComponentItem@type">Ramp Sequence (VU)</con1:property><con1:property key="_digest">844b9028b113ae56e5ca663cf1a53987</con1:property><con1:property key="_id">com.eviware.RampSequenceVU</con1:property><con1:property key="_classLoader">com.eviware.RampSequenceVU</con1:property></con1:attributes><con1:addons/></con1:component><con1:component type="com.eviware.loadui.components.soapui.SoapUISamplerComponent" label="Google Maps API:TestCase 1" id="cb7a762e-7cd4-4968-a4bc-aad7e59795c3" category="Runners"><con1:properties><con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/><con1:property propagates="true" key="concurrentSamples" type="java.lang.Long">1000</con1:property><con1:property propagates="true" key="property_name_is_not_relevant_for_private_property" type="java.lang.Long">9223372036854775807</con1:property><con1:property propagates="true" key="maxQueueSize" type="java.lang.Long">1000</con1:property><con1:property propagates="true" key="countDiscarded" type="java.lang.Boolean">false</con1:property><con1:property propagates="true" key="disabledTestSteps" type="java.lang.String"/><con1:property propagates="true" key="_thinkTime" type="java.lang.Long">0</con1:property><con1:property propagates="true" key="ReadyApiTestCase" type="com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase">d478633c-2b05-463b-bd0e-e53bc420bae3</con1:property><con1:property propagates="true" key="raiseError" type="java.lang.Boolean">true</con1:property><con1:property propagates="true" key="outputTestCaseProperties" type="java.lang.Boolean">true</con1:property><con1:property propagates="true" key="OutputLevel" type="java.lang.String">TestCase only</con1:property><con1:property propagates="true" key="closeConnectionsAfterRequest" type="java.lang.Boolean">false</con1:property><con1:property propagates="true" key="disableSoapuiAssertions" type="java.lang.Boolean">false</con1:property><con1:property propagates="true" key="forceShareDatasources" type="java.lang.Boolean">true</con1:property></con1:properties><con1:attributes><con1:property key="com.eviware.loadui.api.model.ComponentItem@type">Ready API TestCase Runner</con1:property></con1:attributes><con1:addons/></con1:component><con1:connection outputTerminalId="25b29969-b490-4f37-b19e-52606a0cd3f7/outgoingTerminal" inputTerminalId="0ad76ae5-fccf-4eb3-8872-2060005d3322/stateTerminal"/><con1:connection outputTerminalId="0ad76ae5-fccf-4eb3-8872-2060005d3322/triggerTerminal" inputTerminalId="cb7a762e-7cd4-4968-a4bc-aad7e59795c3/triggerTerminal"/><con1:connection outputTerminalId="cb7a762e-7cd4-4968-a4bc-aad7e59795c3/runningTerminal" inputTerminalId="0ad76ae5-fccf-4eb3-8872-2060005d3322/Sample Count"/></con1:scene><con1:statistics><con1:page title="DefaultLoadUIStatisticPage"><con1:chartGroup type="com.eviware.loadui.api.statistics.model.chart.line.LineChartView" title="" groupType="Monitors"><con1:attributes/></con1:chartGroup></con1:page></con1:statistics></con1:loadui-project><con:loadUITestScenario projectId="c4bd0d5a-f94e-471b-afb8-ce4243086422" scenarioId="e34777e8-c721-4355-ac5c-b16cbb13daae" name="New Scenario" id="8859432f-ba93-4fb7-9f28-3daa139a2fea"><con:settings/></con:loadUITestScenario></con:loadUiTest></con:soapui-project>
